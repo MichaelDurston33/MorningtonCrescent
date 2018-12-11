@@ -1,0 +1,38 @@
+/*
+Theme Name: Fictional University
+Author: Michael
+Version: 1.0
+*/
+
+/* 3rd party packages */
+@import "normalize.css";
+@import "slick-carousel/slick/slick.css";
+
+/* Abstracts - don't output css */
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+/* Base */
+@import "base/animations";
+@import "base/baseline";
+@import "base/utilities";
+@import "base/typography";
+
+/* Components - building blocks */
+@import "components/cube";
+@import "components/naviBoxes.css";
+@import "components/eventComponent.css";
+@import "components/blogTile.css";
+@import "components/circleSlider.css";
+
+/* Layouts - groups of multiple components */
+@import "layout/footer";
+@import "layout/grid";
+@import "layout/placemat";
+@import "layout/blog";
+
+/* Pages */
+@import "pages/home";
+@import "pages/archiveEvent";
+@import "pages/archiveGallery";
+@import "pages/archiveStaff";

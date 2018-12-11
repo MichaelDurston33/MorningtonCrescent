@@ -1,0 +1,18 @@
+/* COLOURS */
+$vibrant: #f4d35e;
+$vibrantLight: #f06543;
+$vibrantDark: #e0dfd5;
+$neutralDark: #313638;
+$neutralLight: #e8e9eb;
+
+/* GRID */
+$gridWidth: 100%;
+$gutterVertical: 0rem;
+$gutterHorizontal: 0rem;
+
+/* SIZES */
+$oneThirdOfPlacemat: 21rem;
+$oneThirdDoublePixelBorder: 20.8rem;
+$twoThirdsOfPlacemat: 42rem;
+$threeThirdsDoublePixelBorder: 62.8rem;
+$threeThirdsOfPlacemat: 63rem;

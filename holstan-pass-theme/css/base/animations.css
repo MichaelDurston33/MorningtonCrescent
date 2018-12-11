@@ -1,0 +1,52 @@
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes skitter {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes in {
+  0% {
+    border-right: 2px solid yellow;
+    border-bottom: 2px solid yellow;
+    padding: 1px;
+  }
+  100% {
+    border-right: 2px solid $neutralDark;
+    border-bottom: 2px solid $neutralDark;
+    padding-left: 0px;
+  }
+}
+
+@keyframes out {
+  0% {
+    border-right: 2px solid $neutralDark;
+    border-bottom: 2px solid $neutralDark;
+    padding-left: 0px;
+  }
+  100% {
+    border-right: 2px solid yellow;
+    border-bottom: 2px solid yellow;
+    padding: 1px;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}

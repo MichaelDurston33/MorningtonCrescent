@@ -1,0 +1,103 @@
+.container {
+  &--center {
+    margin: 0 auto;
+  }
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+/* ROTATION */
+
+.rotate45back {
+  transform: rotate(-45deg);
+}
+
+.rotate45 {
+  transform: rotate(45deg);
+}
+
+.rotate90back {
+  transform: rotate(-90deg);
+}
+
+.rotate90 {
+  transform: rotate(90deg);
+}
+
+.rotate180 {
+  transform: rotate(180deg);
+}
+
+/* MARQUEE */
+
+.marquee {
+  margin-top: 16px;
+}
+
+.right {
+  float: right;
+  margin-right: 20px;
+}
+
+/* SIZES */
+
+.halfie {
+  width: 100%;
+  height: $threeThirdsDoublePixelBorder;
+  background-color: white;
+  overflow: scroll;
+}
+
+.halfieOneThird {
+  width: 100%;
+  height: $oneThirdDoublePixelBorder;
+  border: 1px solid black;
+}
+
+.halfieTwoThirds {
+  width: 100%;
+  height: $twoThirdsOfPlacemat;
+  background-color: white;
+}
+
+/* BORDERS */
+.StandardBlack {
+  border: 1px solid black;
+
+  &--BottomBold {
+    border: 1px solid black;
+
+    border-bottom: 2px solid black;
+  }
+}
+
+/* IMAGES  */
+
+.stretchBack {
+  background-repeat: no-repeat;
+  object-fit: cover;
+  max-height: 100%;
+  max-width: 180%;
+}
+
+.fitBack {
+  max-height: 100%;
+  max-width: 130%;
+  position: absolute;
+  clip: rect(0px, 500px, $threeThirdsDoublePixelBorder, 0px);
+}
+
+.sneaky {
+  opacity: 0;
+  position: absolute;
+  display: none;
+}

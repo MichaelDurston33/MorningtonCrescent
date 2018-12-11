@@ -1,0 +1,27 @@
+.naviBox {
+  width: 100%;
+  height: $oneThirdOfPlacemat;
+  border: 1px solid black;
+  z-index: 3000000;
+}
+
+.naviBox--Events {
+  cursor: pointer;
+}
+
+.naviBox--Contacts {
+  display: flex;
+}
+
+.backgroundDeco {
+  width: 100%;
+  height: calc(($oneThirdOfPlacemat - 0.2rem));
+
+  border-right: 2px solid black;
+  background: linear-gradient(135deg, white 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, white 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, white 25%, transparent 25%),
+    linear-gradient(45deg, white 25%, transparent 25%);
+  background-size: 100px 100px;
+  background-color: black;
+}

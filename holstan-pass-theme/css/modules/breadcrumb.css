@@ -1,0 +1,7 @@
+.breadcrumb {
+  border: 5px solid orange;
+}
+
+.linkHighlighted {
+  color: $mainYellow;
+}

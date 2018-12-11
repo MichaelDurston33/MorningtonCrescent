@@ -1,0 +1,51 @@
+.eventBox {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  height: 100%;
+  position: absolute;
+  &--tours {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: 57%;
+    height: 100%;
+    z-index: -500;
+
+    flex-wrap: nowrap;
+    padding-left: 25%;
+    margin-left: -13rem;
+  }
+}
+
+.event {
+  display: flex;
+  border-bottom: 1px solid black;
+  padding: 1.2rem;
+  height: calc($oneThirdDoublePixelBorder / 3);
+
+  &:not(:first-child) {
+    border-top: 1px solid black;
+  }
+}
+
+.eventCirclediv {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 15rem; /* one half of ( (border * 2) + height + padding ) */
+  color: black;
+  font-size: 1.3rem;
+  margin-left: 0%;
+  height: 4.5rem;
+  width: 4.5rem;
+  padding: 5px 3px 0 3px;
+  text-align: center;
+}
+
+.eventText {
+  width: 70%;
+  height: 50px;
+  margin-left: 2.5rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+}

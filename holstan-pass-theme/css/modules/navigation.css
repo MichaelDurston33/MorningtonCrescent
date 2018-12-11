@@ -1,0 +1,50 @@
+a {
+  color: inherit;
+}
+
+.current-menu-ancestor a,
+.current-menu-item {
+  color: green;
+}
+
+.foo {
+  background-color: yellow;
+  font-size: 5rem;
+
+  &__box {
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+    font-size: 3rem;
+  }
+
+  &--sub {
+    color: red;
+    border: 2px solid black;
+  }
+
+  @mixin atMedium {
+    background-color: pink;
+  }
+
+  @mixin atSmallMedium {
+    background-color: blue;
+  }
+
+  @mixin atSmall {
+    background-color: red;
+  }
+
+  @mixin atLarge {
+    background-color: orange;
+  }
+}
+
+li > ul {
+  display: none;
+}
+
+li.current-menu-item > ul,
+li.current-menu-ancestor > ul {
+  display: block;
+}

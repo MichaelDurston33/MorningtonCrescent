@@ -1,0 +1,54 @@
+/* Responsive mixins. atSmall 600px, atSmallMedium 900px,
+atMedium 1200px, atLarge 1800px.  */
+
+/* Should be in specific order when used:
+  @mixin atMedium {
+    background-color: pink;
+  }
+
+  @mixin atSmallMedium {
+    background-color: blue;
+  }
+
+  @mixin atSmall {
+    background-color: red;
+  }
+
+  @mixin atLarge {
+    background-color: orange;
+  }
+} */
+
+@define-mixin atSmall {
+  @media (max-width: 600px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin atSmallMedium {
+  @media (max-width: 900px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin atMedium {
+  @media (max-width: 1200px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin atLarge {
+  @media (min-width: 1800px) {
+    @mixin-content;
+  }
+}
+/*
+Stops floated element from collapsing it's height */
+
+@define-mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

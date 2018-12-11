@@ -1,0 +1,47 @@
+.placemat {
+  width: 90%;
+  border: 1px solid black;
+  margin: 3rem auto;
+  height: $threeThirdsOfPlacemat;
+}
+
+.satellite {
+  position: absolute;
+  width: 30rem;
+  font-weight: bold;
+}
+
+.About {
+  margin-left: -5%;
+  margin-top: 8.7rem;
+}
+
+.Staff {
+  margin-left: 90%;
+  margin-top: 8.7rem;
+}
+
+.Date {
+  margin-left: 68%;
+  margin-top: -2.7rem;
+}
+
+.Gallery {
+  margin-left: -6%;
+  margin-top: 30rem;
+}
+
+.Events {
+  margin-top: 52rem;
+  margin-left: -5.2%;
+}
+
+.Blog {
+  margin-top: 29rem;
+  margin-left: 90.5%;
+}
+
+.Contacts {
+  margin-top: 50rem;
+  margin-left: 89%;
+}
